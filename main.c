@@ -2,7 +2,7 @@
 #include <turboc.h>
 #include <windows.h>
 
-void cursor(int n) // ƒøº≠ ∫∏¿Ã±‚ & º˚±‚±‚
+void cursor(int n) //Ïª§ÏÑú Î≥¥Ïù¥Í∏∞
 {
     HANDLE hConsole;
     CONSOLE_CURSOR_INFO ConsoleCursor;
@@ -32,7 +32,7 @@ int main()
 
 	SetCursorPos(fx,fy);
 	gotoxy(cx, cy);
-	printf("°·");
+	printf("¬°√°");
 	while(1){ 
 		
 		
@@ -92,7 +92,7 @@ int main()
 			
 			
 			gotoxy(cx, cy);
-			printf("°·");
+			printf("¬°√°");
 			SetCursorPos(fx,fy);
 			if(cy < 0 || cy > 38 || cx < 0 || cx > 91){
 				clrscr();
